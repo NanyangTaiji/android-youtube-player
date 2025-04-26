@@ -42,7 +42,7 @@ dependencies {
   androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espressoCore"
 
   implementation project(':core')
-  implementation project(':chromecast-sender')
+  //implementation project(':chromecast-sender')
 
   implementation "androidx.appcompat:appcompat:$versions.appcompat"
   implementation "androidx.recyclerview:recyclerview:$versions.androidxRecyclerView"
@@ -50,5 +50,5 @@ dependencies {
 
   implementation "androidx.mediarouter:mediarouter:$versions.androidxMediarouter"
 
-  implementation "com.github.PierfrancescoSoffritti:library-sample-app-template:$versions.sampleAppTemplate"
+ // implementation "com.github.PierfrancescoSoffritti:library-sample-app-template:$versions.sampleAppTemplate"
 }

@@ -1,0 +1,12 @@
+package com.pierfrancescosoffritti.androidyoutubeplayer.core.sampleapp.utils
+
+import java.util.*
+
+object VideoIdsProvider {
+  private val videoIds = arrayOf("C-9PbZw8CEo", "Una0L5sysk8", "njX2bu-_Vw4", "w3ZvTDSCPuI")
+  private val random = Random()
+
+  fun getNextVideoId(): String {
+    return videoIds[random.nextInt(videoIds.size)]
+  }
+}

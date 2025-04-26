@@ -32,6 +32,8 @@ dependencies {
   androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espressoCore"
 
   api "androidx.lifecycle:lifecycle-runtime-ktx:$versions.androidxLifecycleRuntime"
+  api "com.google.android.gms:play-services-cast-framework:$versions.googlePlayServicesCastFramework"
+
 }
 
 ext {

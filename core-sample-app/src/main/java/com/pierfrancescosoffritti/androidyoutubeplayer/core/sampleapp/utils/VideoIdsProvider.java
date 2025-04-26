@@ -3,7 +3,7 @@ package com.pierfrancescosoffritti.androidyoutubeplayer.core.sampleapp.utils;
 import java.util.Random;
 
 public class VideoIdsProvider {
-  private static final String[] videoIds = {"6JYIGclVQdw", "LvetJ9U_tVY", "S0Q4gqBUs7c", "zOa-rSM4nms"};
+  private static final String[] videoIds = {"C-9PbZw8CEo", "Una0L5sysk8", "njX2bu-_Vw4", "w3ZvTDSCPuI"};
   private static final String[] liveVideoIds = {"hHW1oY26kxQ"};
   private static final Random random = new Random();
 
